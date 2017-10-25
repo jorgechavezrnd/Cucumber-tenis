@@ -3,5 +3,6 @@ set :bind, '0.0.0.0'
 set :port, 3000
 
 get '/' do
-  "Hola mundo!!!!"
+  @marcador = '0-0'
+  erb :marcador
 end
